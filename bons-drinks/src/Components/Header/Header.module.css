@@ -1,0 +1,32 @@
+header{
+    grid-area: header;
+    height: 10vh;
+    width: 100vw;
+    background-color: #210124;
+    color: #db2763;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .42);
+}
+
+
+.listaHeader{
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.listaComum{
+    font-family: Poppins, sans-serif;
+}
+
+.listaTitle{
+    /* color: #12eaea; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 900;
+}
