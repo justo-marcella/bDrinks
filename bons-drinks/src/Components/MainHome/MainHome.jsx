@@ -4,10 +4,8 @@ import style from './MainHome.module.css';
 function MainHome() {
     return (
         
-            <section>
-                <div className={style.banner}>
-                    <h3>Bons Drinks</h3>
-                </div>
+            <section className={style.banner}>
+                <h1>Bons Drinks</h1>
             </section>
             
     )
