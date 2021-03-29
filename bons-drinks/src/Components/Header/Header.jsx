@@ -1,30 +1,30 @@
 import React from 'react';
 import style from './Header.module.css';
-// import {Link} from "react-router-dom";
+import { BrowserRouter as Router, Link, NavLink} from "react-router-dom";
 
 function Header() {
     return (
-        <header>
-            <ul className={style.listaHeader + " header "}>
-                {/* <Link to=""> */}
+        <div className={style.contentHeader}>
+            <ul className={style.listaHeader}>
+                <Link to="/drinks">
                     <li className={style.listaComum}>Drinks</li>
-                {/* </Link> */}
-                {/* <Link to=""> */}
+                </Link>
+                <Link to="/sobre-nos">
                     <li className={style.listaComum}>Sobre</li>
-                {/* </Link> */}
-                {/* <Link to=""> */}
+                </Link>
+                <Link to="/">
                     <li className={style.listaTitle}>Bons Drinks</li>
-                {/* </Link> */}
-                {/* <Link to=""> */}
+                </Link>
+                <Link to="/nosso-time">
                     <li className={style.listaComum}>Nosso Time</li>
-                {/* </Link> */}
-                {/* <Link to=""> */}
+                </Link>
+                <Link to="/contato">
                     <li className={style.listaComum}>Contato</li>
-                {/* </Link> */}
+                </Link>
             </ul>
 
 
-        </header>
+        </div>
     )
 }
 

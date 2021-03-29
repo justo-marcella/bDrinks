@@ -1,10 +1,10 @@
-header{
-    /* height: 10vh; */
-    /* width: 100vw; */
+.contentHeader{
+    height: 80px;
+    width: 100vw;
     background-color: #210124;
     color: #db2763;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
     box-shadow: 5px 5px 10px rgba(238, 43, 222, 0.42);
 }
@@ -21,6 +21,7 @@ header{
 
 .listaComum{
     font-family: Poppins, sans-serif;
+    text-decoration: none;
 }
 
 .listaComum:hover{
@@ -32,6 +33,7 @@ header{
     font-family: 'Dancing Script', cursive;
     font-size: 38px;
     font-weight: 900;
+    text-decoration: none;
 }
 .listaTitle:hover{
     color: #bce7fd;

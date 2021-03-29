@@ -1,21 +1,25 @@
-import React from 'react';
-import Button from '../Button/Button';
+import React from 'react'
 import style from './GetDrinks.module.css';
+import {Link, Switch, Route} from 'react-router-dom';
+import Populares from './Popular/Popular';
 
-function GetDrinks() {
+function GetDrinks () {
     return (
-        <div className={style.gridDrinks}>
-        <section className={style.headerDrinks}>
+        <div className={style.contentDrinks}>
+            <h2 className={style.titleDrinks}>Drinks</h2>
+            <section className={style.sectionDrinks}>
+                <button className={style.buttonDrinks1}>
+                    <Link to="/drinks/Populares">Drinks Populares</Link>
+                </button>
+            </section>
             <div>
-                <h1>Drinks</h1>
+            <Switch>
+                <Route path="/drinks/Populares">
+                    <Populares />
+                </Route>
+            </Switch>
             </div>
-        </section>
-        <section className={style.contentDrinks}>
-            <Button titulo="Drinks Populares"/>
-            <Button titulo="Buscar Drinks"/>
-        </section>
-        
-    </div>
+        </div>
     )
 }
 

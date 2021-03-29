@@ -1,0 +1,69 @@
+.timeContent{
+    display: grid;
+    grid-template-areas:
+        "title title title title"
+        "pic1 person1 pic2 person2"
+        "pic3 person3 pic4 person4";
+    grid-template-rows: 80px 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 75%;
+    grid-gap: 20px;
+    gap: 20px;
+    margin: 15px auto 80px;
+    
+    font-family: Poppins, sans-serif;
+    color: #bce7fd;
+}
+
+h1{
+    grid-area: title;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+h2{
+    font-size: 22px;
+}
+.teamOne{
+    grid-area: pic1;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.personOne{
+    grid-area: person1;
+    font-size: 20px;
+}
+
+.teamTwo{
+    grid-area: pic2;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.personTwo{
+    grid-area: person2;
+    font-size: 20px;
+}
+.teamThree{
+    grid-area: pic3;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.personThree{
+    grid-area: person3;
+    font-size: 20px;
+}
+.teamFour{
+    grid-area: pic4;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.personFour{
+    grid-area: person4;
+    font-size: 20px;
+}
