@@ -14,10 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <header>
         <Header className="header"/>      
-        </header>
-        <main>
           <Switch>
             <Route path="/drinks">
               <GetDrinks className="mainContents"/>
@@ -35,10 +32,10 @@ function App() {
               <Contato className="mainContents"/>
             </Route>
           </Switch>
-        </main>
-        <footer>
+      
+      
         <Footer className="footer"/>  
-        </footer>  
+      
       </Router> 
     </div>
   );
