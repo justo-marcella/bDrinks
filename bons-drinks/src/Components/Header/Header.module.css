@@ -23,9 +23,16 @@ header{
     font-family: Poppins, sans-serif;
 }
 
+.listaComum:hover{
+    color: #bce7fd;
+
+}
 .listaTitle{
     /* color: #12eaea; */
     font-family: 'Dancing Script', cursive;
     font-size: 38px;
     font-weight: 900;
+}
+.listaTitle:hover{
+    color: #bce7fd;
 }
